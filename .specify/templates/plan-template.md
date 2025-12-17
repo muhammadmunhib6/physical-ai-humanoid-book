@@ -31,7 +31,12 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **AI-Native by Design**: Does the plan leverage AI for generation, adaptation, or querying?
+- [ ] **Spec-Driven Development**: Is this plan derived from a formal specification?
+- [ ] **Tooling Strategy**: Does the plan adhere to the Gemini-primary, OpenAI-for-RAG-only rule?
+- [ ] **Architectural Guarantees**: Does the plan account for the required components (Docusaurus, RAG, auth, etc.)?
+- [ ] **Ethics & Safety**: Does the plan include safeguards against unsafe code and hallucination?
+- [ ] **Non-Goals**: Does the plan avoid dependencies on proprietary services like Claude?
 
 ## Project Structure
 

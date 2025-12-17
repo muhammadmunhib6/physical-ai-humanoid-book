@@ -1,37 +1,17 @@
-<!--
-Sync Impact Report:
-- Version change: none → 1.0.0
-- Modified principles:
-  - New: AI-Native by Design
-  - New: Spec-Driven Development
-  - New: Tooling Strategy (No Claude)
-  - New: Architectural Guarantees
-  - New: Educational Scope
-  - New: User-Centric Adaptation
-  - New: Ethics & Safety
-  - New: Non-Goals
-  - New: Evaluation Alignment
-  - New: Amendments
-- Added sections:
-  - Purpose
-  - Core Principles
-  - Tooling Strategy (No Claude)
-  - Architectural Guarantees
-  - Educational Scope
-  - User-Centric Adaptation
-  - Ethics & Safety
-  - Non-Goals
-  - Evaluation Alignment
-  - Amendments
-- Removed sections:
-  - All placeholder sections
-- Templates requiring updates:
-  - .specify/templates/plan-template.md (⚠ pending)
-  - .specify/templates/spec-template.md (⚠ pending)
-  - .specify/templates/tasks-template.md (⚠ pending)
-- Follow-up TODOs: None
--->
-# Physical AI & Humanoid Robotics – AI-Native Textbook (Gemini-Powered) Constitution
+---
+id: 001
+title: Establish Project Constitution for AI Textbook
+stage: constitution
+date: 2025-12-16
+surface: agent
+model: gemini-pro
+feature: none
+branch: master
+user: placeholder-user
+command: /sp.constitution # Project Constitution
+## Physical AI & Humanoid Robotics – AI-Native Textbook (Gemini-Powered)
+
+---
 
 ## 1. Purpose
 
@@ -184,4 +164,50 @@ This constitution may evolve only through:
 
 ---
 
-**Version**: 1.0.0 | **Ratified**: 2025-12-16 | **Last Amended**: 2025-12-16
+**This constitution is the governing contract for all specifications and implementations.**
+labels: ["constitution", "setup"]
+links:
+  spec: null
+  ticket: null
+  adr: null
+  pr: null
+files:
+  - .specify/memory/constitution.md
+  - .specify/templates/plan-template.md
+tests:
+  []
+---
+
+## Prompt
+
+{{PROMPT_TEXT}}
+
+## Response snapshot
+
+I have updated the project constitution to version 1.0.0.
+
+Key changes:
+- Established new principles: AI-Native by Design, Spec-Driven Development, Gemini-first tooling, and more.
+- Updated the plan template to include a constitution checklist.
+- Created a Prompt History Record for this update.
+
+Next steps:
+- You can now use other /sp.* commands to continue developing your project, which will now be aligned with the new constitution.
+
+## Outcome
+
+- ✅ Impact: The project now has a clear set of guiding principles.
+- 🧪 Tests: No tests were run as this was a documentation change.
+- 📁 Files: 
+  - .specify/memory/constitution.md (updated)
+  - .specify/templates/plan-template.md (updated)
+  - history/prompts/constitution/001-establish-project-constitution-for-ai-textbook.constitution.prompt.md (created)
+- 🔁 Next prompts: /sp.specify, /sp.plan
+- 🧠 Reflection: The new constitution provides a solid foundation for the project.
+
+## Evaluation notes (flywheel)
+
+- Failure modes observed: none
+- Graders run and results (PASS/FAIL): PASS
+- Prompt variant (if applicable): null
+- Next experiment (smallest change to try): n/a
